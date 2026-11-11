@@ -1,6 +1,12 @@
+# Python virtual environment
 .venv/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Jupyter Notebook
 .ipynb_checkpoints/
+
+# Environment variables
 .env
-# to prevent upload the virtual environment of each member (prevent conflict)
