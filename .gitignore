@@ -1,3 +1,4 @@
+
 # Python virtual environment
 .venv/
 
@@ -5,8 +6,24 @@
 __pycache__/
 *.pyc
 
-# Jupyter Notebook
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # Environment variables
 .env
+
+# Trained model files
+/models/
+/final_model/
+*.safetensors
+
+# Model training checkpoints
+/ner_checkpoints/
+/checkpoints/
+checkpoint-*/
+
+# Raw prediction errors containing dataset text
+/evaluation_results/prediction_errors.csv
+
+# Compressed download files
+*.zip

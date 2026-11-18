@@ -1,0 +1,5 @@
+error_type,count
+Wrong entity category,406
+False positive token,254
+Missed entity token,120
+BIO boundary label error,33

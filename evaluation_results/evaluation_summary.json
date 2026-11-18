@@ -1,0 +1,27 @@
+{
+    "checkpoint": "/content/drive/MyDrive/AIROST_NER/checkpoints/checkpoint-2634",
+    "original_validation_f1": 0.9466007209321821,
+    "validation_results": {
+        "eval_loss": 0.03777119889855385,
+        "eval_precision": 0.943043260397528,
+        "eval_recall": 0.9501851228542578,
+        "eval_f1": 0.9466007209321821,
+        "eval_accuracy": 0.9910244928157004
+    },
+    "test_results": {
+        "test_loss": 0.11779586970806122,
+        "test_model_preparation_time": 0.0007,
+        "test_precision": 0.9024687065368567,
+        "test_recall": 0.9190864022662889,
+        "test_f1": 0.9107017543859649,
+        "test_accuracy": 0.9824916550016152,
+        "test_runtime": 4.5061,
+        "test_samples_per_second": 766.295,
+        "test_steps_per_second": 47.935
+    },
+    "airost_required_categories": {
+        "precision": 0.9242333132892363,
+        "recall": 0.9322684997978165,
+        "f1": 0.9282335178661298
+    }
+}
